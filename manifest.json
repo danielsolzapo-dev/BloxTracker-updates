@@ -1,7 +1,14 @@
 {
   "ok": true,
-  "version": "3.2.0",
-  "sha256": "a3dd1e523147636cd1a3dc4576a82427bbfbbd886706be4d4c2903d81cd1340f",
-  "size": 124583,
-  "package": "package.zip"
+  "version": "3.3.0",
+  "sha256": "80a8e4a8327222cc5b43641dfd770f572c46a01061f7537a689c4dc777dffb40",
+  "size": 135121,
+  "package": "package.zip",
+  "notes": [
+    "Painel renovado com destaque neon ajust\u00e1vel, vis\u00e3o geral por PC e estados das contas.",
+    "Vers\u00e3o de cada PC, sele\u00e7\u00e3o de agentes e notas antes de instalar atualiza\u00e7\u00f5es.",
+    "Perfis persistentes de RAM e CPU com aplica\u00e7\u00e3o nas contas selecionadas.",
+    "Consumo observado de CPU e RAM dos PIDs vinculados e metas pendentes por PC.",
+    "Fonte oficial do GitHub preenchida por padr\u00e3o."
+  ]
 }
