@@ -1,13 +1,14 @@
 {
   "ok": true,
-  "version": "3.4.0",
-  "sha256": "57b867edad648bb0610fe7d029d3eeee11ebcb34e2e0464028b766c2946d0837",
-  "size": 137317,
+  "version": "3.5.0",
+  "sha256": "53765be8d5abf3fe80799e233c9c2d31e123d355eebdb9593e59b02da643e471",
+  "size": 148447,
   "package": "package.zip",
   "notes": [
-    "Visual reorganizado com navega\u00e7\u00e3o por nomes, tipografia maior e contraste mais claro.",
-    "Textos mais diretos, cart\u00f5es mais leg\u00edveis e menos elementos repetidos na vis\u00e3o geral.",
-    "A\u00e7\u00f5es secund\u00e1rias reunidas no menu Mais a\u00e7\u00f5es; todas as fun\u00e7\u00f5es foram preservadas.",
-    "Melhor distribui\u00e7\u00e3o dos filtros, detalhes de contas e telas de recursos e atualiza\u00e7\u00f5es."
+    "Nova aba Gerenciador: escolha conta, PC, jogo e solicite a abertura do Roblox.",
+    "Integra\u00e7\u00e3o com a API local do Roblox Account Manager 3.x para contas j\u00e1 autenticadas.",
+    "Pedidos recebidos pelo agente mesmo sem Roblox aberto, com confirma\u00e7\u00e3o pelo coletor.",
+    "Senha da API protegida pelo Windows e mantida somente no PC configurado.",
+    "Primeira etapa: abertura sob demanda. Reconex\u00e3o autom\u00e1tica e transfer\u00eancia de sess\u00f5es entre PCs ainda n\u00e3o est\u00e3o dispon\u00edveis."
   ]
 }

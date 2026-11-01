@@ -1,27 +1,32 @@
 # BloxTracker updates
 
-Canal oficial de atualizações. Versão atual: **3.4.0**.
+Versão atual: **3.5.0**.
 
-## Como atualizar
+## Atualizar
 
-No PC central, abra **Atualizações** e use **Verificar versão → Baixar atualização → Instalar e reiniciar**. Fonte oficial:
+No central: **Atualizações → Verificar versão → Baixar atualização → Instalar e reiniciar**. Depois atualize os agentes selecionados.
 
 ```
 https://raw.githubusercontent.com/danielsolzapo-dev/BloxTracker-updates/main/manifest.json
 ```
 
-Depois selecione os agentes e solicite a atualização pela rede. O atualizador precisa estar instalado uma vez em cada computador. Configurações, contas, banco e chaves permanecem nos PCs.
+## Gerenciador — primeira etapa
 
-## Novidades da 3.4.0
+A nova aba **Gerenciador** inicia contas sob demanda no PC local ou em outro PC da rede. Usa a API documentada do Roblox Account Manager 3.x (`GetAccounts` e `LaunchAccount`). O Account Manager precisa estar aberto e a conta precisa estar cadastrada e autenticada no PC escolhido.
 
-- Navegação lateral com nomes e ícones consistentes.
-- Textos mais diretos, fontes maiores e contraste ajustado.
-- Cartões e tabelas com hierarquia e espaçamento mais claros.
-- Ações secundárias reunidas em **Mais ações**.
-- Telas de recursos, detalhes e atualizações com acabamento uniforme.
+Configure uma vez em cada PC Windows, na aba Gerenciador do tracker local: porta, senha da API e integração ativa. Sincronize as contas e faça a abertura pelo central. Consulte **GERENCIADOR.txt** no pacote para as configurações do Account Manager.
 
-As funções de metas, recursos, perfis e sincronização foram preservadas.
+- O agente recebe pedidos mesmo sem Roblox aberto.
+- Um pedido não é repetido automaticamente quando a resposta é incerta.
+- A entrada é confirmada quando o coletor enviar dados; mantenha o coletor no Auto Execute.
+- A senha da API é protegida com DPAPI e permanece no PC configurado.
+- Senhas Roblox e cookies não são coletados. Não acessamos GetCookie nem GetAccountsJson.
+- **Esta etapa ainda não tem reconexão automática nem transferência de sessões entre PCs.**
+
+Testado com API RAM simulada e agentes reais do tracker na rede de teste. A compatibilidade com a instalação Windows/Account Manager do usuário precisa ser validada nela.
+
+API: https://ic3w0lf22.gitbook.io/roblox-account-manager
 
 ## Publicação
 
-`manifest.json` e `package.zip` são enviados no mesmo commit. SHA-256 verifica a integridade; use apenas uma fonte confiável, pois o pacote contém código executável. O tracker guarda backup da aplicação para recuperação. Após publicar, o cache do GitHub pode levar alguns minutos para refletir os dois arquivos.
+`manifest.json` e `package.zip` são enviados no mesmo commit. SHA-256 verifica a integridade; a fonte distribui código executável e precisa ser confiável. Configurações e sessões ficam fora do pacote. O cache do GitHub pode levar alguns minutos para refletir os arquivos novos.
