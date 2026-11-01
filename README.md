@@ -1,6 +1,14 @@
 # BloxTracker updates
 
-Versão atual: **3.7.0 — reconexão automática**.
+Versão atual: **3.8.0 — seis visuais e aviso de verificação manual**.
+
+## Novidades 3.8
+
+- **Aparência** na navegação: Clássico (visual anterior), Aurora, Órbita, Luz, Terminal e Horizonte. Seletor com prévias e preferência por navegador. Aurora é o padrão.
+- Electro procura também o sprite Electric. Após atualizar, execute o coletor novamente pelo carregador (coletor 3.2).
+- A janela de login reconhece caminhos de desafio ou iframes visíveis identificáveis de CAPTCHA e avisa no Gerenciador local. Aguarda resolução pessoal na janela oficial e continua a validação da sessão; não resolve nem envia desafios a terceiros. Formatos diferentes podem não ser detectados. Prazo de login permanece 9 minutos.
+- Reconexão, metas, recursos e agentes mantidos. Testes de atualização LAN, sessão, reconexão e busca de sprites passaram; verificação real no Windows ainda depende do usuário.
+
 
 ## Atualizar
 
