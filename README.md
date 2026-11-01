@@ -1,27 +1,27 @@
 # BloxTracker updates
 
-Canal oficial de atualização do BloxTracker. Versão atual: **3.3.0**.
+Canal oficial de atualizações. Versão atual: **3.4.0**.
 
-## Atualizar
+## Como atualizar
 
-No PC central, abra **Atualizações**, salve a fonte abaixo e use **Verificar versão → Baixar atualização → Instalar e reiniciar**.
+No PC central, abra **Atualizações** e use **Verificar versão → Baixar atualização → Instalar e reiniciar**. Fonte oficial:
 
 ```
 https://raw.githubusercontent.com/danielsolzapo-dev/BloxTracker-updates/main/manifest.json
 ```
 
-Depois selecione os agentes de destino e solicite a atualização pela rede. O atualizador precisa estar instalado uma vez em cada computador. Configurações, contas, banco de dados e chaves ficam nos PCs e não fazem parte do pacote público.
+Depois selecione os agentes e solicite a atualização pela rede. O atualizador precisa estar instalado uma vez em cada computador. Configurações, contas, banco e chaves permanecem nos PCs.
 
-## Versão 3.3.0
+## Novidades da 3.4.0
 
-- Visual neon com três cores de destaque.
-- Visão por PC com contas, metas e consumo dos processos vinculados.
-- Estados inferidos das contas; dados recentes não confirmam execução de farm.
-- Perfis persistentes de RAM e CPU para as contas selecionadas.
-- Versão por PC, notas de atualização e seleção dos agentes.
+- Navegação lateral com nomes e ícones consistentes.
+- Textos mais diretos, fontes maiores e contraste ajustado.
+- Cartões e tabelas com hierarquia e espaçamento mais claros.
+- Ações secundárias reunidas em **Mais ações**.
+- Telas de recursos, detalhes e atualizações com acabamento uniforme.
 
-CPU observada é percentual do total do PC. RAM observada é o working set em MiB. Cobertura informa quantos PIDs foram medidos; agentes antigos precisam atualizar para fornecer consumo.
+As funções de metas, recursos, perfis e sincronização foram preservadas.
 
-## Arquivos
+## Publicação
 
-`manifest.json` e `package.zip` são publicados juntos. SHA-256 verifica integridade; confie somente em fontes administradas por você. O pacote contém código executável. O tracker mantém backup da aplicação para recuperação.
+`manifest.json` e `package.zip` são enviados no mesmo commit. SHA-256 verifica a integridade; use apenas uma fonte confiável, pois o pacote contém código executável. O tracker guarda backup da aplicação para recuperação. Após publicar, o cache do GitHub pode levar alguns minutos para refletir os dois arquivos.
