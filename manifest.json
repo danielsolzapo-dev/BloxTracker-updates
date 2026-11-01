@@ -1,12 +1,13 @@
 {
   "ok": true,
-  "version": "3.5.1",
-  "sha256": "58b58625b6172996864eafb4b46841abbda35975068cdbc98333e4e81095478f",
-  "size": 148896,
+  "version": "3.6.0",
+  "sha256": "e159a64ce9b40bf7088cfc053b6e45af10126e05e9b3e6060c90ca4b68014249",
+  "size": 154378,
   "package": "package.zip",
   "notes": [
-    "Corre\u00e7\u00e3o do instalador: fecha as conex\u00f5es SQLite usadas no backup para evitar arquivos ocupados no Windows.",
-    "Falhas de instala\u00e7\u00e3o agora exibem tipo de erro, c\u00f3digo e nome do arquivo para diagn\u00f3stico.",
-    "Se estiver usando um instalador anterior, feche e reabra o tracker antes de instalar e novamente ap\u00f3s concluir."
+    "Gerenciador pr\u00f3prio: login pela janela oficial do Roblox e sess\u00f5es locais protegidas pelo Windows.",
+    "Prepara\u00e7\u00e3o do componente de login pelo painel, sem Roblox Account Manager externo.",
+    "Abertura da conta por ticket tempor\u00e1rio, com confirma\u00e7\u00e3o do coletor e pedidos sem repeti\u00e7\u00e3o autom\u00e1tica.",
+    "Primeiro teste no PC principal: componentes WebView2 e abertura real precisam ser validados no seu Windows."
   ]
 }
