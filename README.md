@@ -1,6 +1,20 @@
 # BloxTracker updates
 
-Versão atual: **3.8.0 — seis visuais e aviso de verificação manual**.
+Versão atual: **3.9.0 — gerenciador de operação em lote**.
+
+## Novidades 3.9
+
+- Gerenciador com abas Contas e grupos, Fila de início, Computadores e Agendamentos.
+- Seleção de contas em vários PCs, grupos salvos e início em lote. Cada PC precisa das suas sessões locais já cadastradas.
+- Capacidade padrão: 6 instâncias monitoradas, intervalo de 20 segundos e 1 carregamento por vez. Ajustável por PC: 1–100 instâncias, 5–600 segundos e 1–5 carregamentos simultâneos. Processos que o tracker desconhece não entram na contagem.
+- Prioridade de 0 a 9 por conta, destino (Place ID/Job ID) salvo e confirmação do coletor antes da próxima abertura. Agentes atualizados informam o ID esperado para conferir a identidade.
+- Pausa de fila por PC e pausa de reconexão por seleção, grupo ou PC. Fechar pelo painel também cancela esperas da conta; pedidos já entregues podem terminar.
+- Agendamentos pontuais de início ou fechamento. Central e agentes precisam estar abertos. Horários perdidos por mais de 5 minutos não executam. Fechamento fica preso ao PID, criação e sessão escolhidos e depende de dados recentes no momento de executar.
+- Diagnóstico de Windows, login, protocolo Roblox e contato. Estado de sessão informa credencial salva ou necessidade de conferir login; não faz validação contínua online. Verificações humanas continuam manuais.
+- Aberturas incertas bloqueiam novas admissões no PC até revisão. Liberar a fila não repete o pedido antigo. Reativar reconexão reconhece os resultados incertos anteriores da mesma conta.
+
+**Validação 3.9:** fila por prioridade/capacidade, grupos, destinos, identidade, agendamentos perdidos, fechamento preso à instância e atualização LAN passaram. Teste com central/agente reais do tracker confirmou ordem, espera pelo coletor e fechamento agendado, com processos e abertura simulados. Falta validar estas novas funções no Windows real.
+
 
 ## Novidades 3.8
 
