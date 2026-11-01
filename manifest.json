@@ -1,14 +1,12 @@
 {
   "ok": true,
-  "version": "3.5.0",
-  "sha256": "53765be8d5abf3fe80799e233c9c2d31e123d355eebdb9593e59b02da643e471",
-  "size": 148447,
+  "version": "3.5.1",
+  "sha256": "58b58625b6172996864eafb4b46841abbda35975068cdbc98333e4e81095478f",
+  "size": 148896,
   "package": "package.zip",
   "notes": [
-    "Nova aba Gerenciador: escolha conta, PC, jogo e solicite a abertura do Roblox.",
-    "Integra\u00e7\u00e3o com a API local do Roblox Account Manager 3.x para contas j\u00e1 autenticadas.",
-    "Pedidos recebidos pelo agente mesmo sem Roblox aberto, com confirma\u00e7\u00e3o pelo coletor.",
-    "Senha da API protegida pelo Windows e mantida somente no PC configurado.",
-    "Primeira etapa: abertura sob demanda. Reconex\u00e3o autom\u00e1tica e transfer\u00eancia de sess\u00f5es entre PCs ainda n\u00e3o est\u00e3o dispon\u00edveis."
+    "Corre\u00e7\u00e3o do instalador: fecha as conex\u00f5es SQLite usadas no backup para evitar arquivos ocupados no Windows.",
+    "Falhas de instala\u00e7\u00e3o agora exibem tipo de erro, c\u00f3digo e nome do arquivo para diagn\u00f3stico.",
+    "Se estiver usando um instalador anterior, feche e reabra o tracker antes de instalar e novamente ap\u00f3s concluir."
   ]
 }

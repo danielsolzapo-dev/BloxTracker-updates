@@ -1,6 +1,6 @@
 # BloxTracker updates
 
-Versão atual: **3.5.0**.
+Versão atual: **3.5.1**.
 
 ## Atualizar
 
@@ -9,6 +9,10 @@ No central: **Atualizações → Verificar versão → Baixar atualização → 
 ```
 https://raw.githubusercontent.com/danielsolzapo-dev/BloxTracker-updates/main/manifest.json
 ```
+
+## Correção do instalador (3.5.1)
+
+Fecha explicitamente as conexões SQLite do backup para evitar arquivos ocupados no Windows. Falhas agora mostram tipo, código e nome do arquivo. Em instalações antigas, feche e reabra o tracker antes de instalar; após concluir, feche e abra novamente para carregar o instalador corrigido.
 
 ## Gerenciador — primeira etapa
 
