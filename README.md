@@ -1,6 +1,19 @@
 # BloxTracker updates
 
-Versão atual: **3.10.0 — parada de operação e reinício gradual**.
+Versão atual: **3.11.0 — cadastro por tentativa e cofre local**.
+
+## Novidades 3.11
+
+- **Gerenciador → Criar conta**: uma tentativa por clique. Informe sua data de nascimento correta, prefixo e confirme que leu/aceita os termos. O tracker gera usuário/senha e tenta preencher/enviar o formulário na janela oficial do Roblox deste PC.
+- CAPTCHA ou verificação identificável interrompe os cliques automáticos. Formulário desconhecido, recusa ou ausência de confirmação também interrompem; não há solver, proxy nem repetição automática. A janela pode ser usada pessoalmente para concluir ou fechada.
+- **Criar manualmente** abre o cadastro oficial sem preencher/enviar. A aceitação dos termos e as verificações são realizadas pelo usuário no próprio site.
+- **Pastas → Contas criadas**: cofre local, com estados separados para credencial preparada, submetida, CAPTCHA, recusa, sem confirmação, criada e informada manualmente. Só uma sessão validada do usuário gerado confirma a criação.
+- Senhas ocultas; **Mostrar senha por 30s** exige clique. Fechar o cofre ou ocultar a página esconde a senha. Credenciais manuais podem ser guardadas sem alegar validação da conta.
+- `created-accounts.json` usa DPAPI do usuário Windows. Credenciais não entram no SQLite, estado público, LAN, exportação, backup ou pacote GitHub. Não há transferência de cofre entre PCs. Bloqueio entre processos protege as gravações.
+- Após sucesso, a sessão validada é guardada no gerenciador local. Dados de nascimento são consumidos pelo helper e removidos do registro após esse consumo. Dados de cadastro não são passados pela linha de comando.
+
+**Validação:** testes simulados de preenchimento, uma submissão, parada no CAPTCHA sem nova submissão, data alterada, cofre, rotas autenticadas e atualização LAN passaram. Não criamos contas reais nos testes. O formulário atual, WebView2 e DPAPI precisam de validação no Windows; se o formulário mudou, use cadastro manual. Prazo de 9 minutos por janela.
+
 
 ## Novidades 3.10
 
