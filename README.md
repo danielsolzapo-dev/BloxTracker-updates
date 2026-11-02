@@ -1,6 +1,20 @@
 # BloxTracker updates
 
-Versão atual: **3.11.0 — cadastro por tentativa e cofre local**.
+Versão atual: **3.12.0 — arquivos entre computadores**.
+
+## Novidades 3.12
+
+- Nova aba **Arquivos**: selecione o computador, unidade e pasta; navegue no PC central e nos agentes registrados.
+- Envie um arquivo escolhido no navegador para o destino selecionado; baixe arquivos do agente e salve no PC do navegador.
+- Criação de pastas e botão para enviar um ZIP do tracker atual, sem configuração de rede, sessões ou senhas. O envio não instala nem executa o conteúdo.
+- Até **25 MiB por arquivo**, cache de 250 MiB, 20 pedidos ativos, cancelamento e conferência SHA-256. Arquivos existentes só são substituídos com a opção explícita de sobrescrita.
+- Pedidos expiram em 15 minutos; cache e registros encerrados são limpos após 1 hora. Cancelar não desfaz uma gravação já concluída.
+- Transporte pela conexão LAN autenticada existente, com autorização por PC. Painel e agentes precisam estar abertos e atualizados; Roblox não precisa estar aberto.
+- Credenciais internas conhecidas do tracker não aparecem nesta aba. O acesso às demais pastas segue as permissões do usuário Windows.
+
+**Validação:** testes de upload/download binário em serviços central/agente reais, isolamento de chaves, cancelamento, não sobrescrita, integridade, pasta e pacote sanitizado passaram em Linux. Interface conferida no navegador com dados de demonstração. Unidades, permissões e gravação atômica no Windows precisam de validação nos seus PCs.
+
+
 
 ## Novidades 3.11
 

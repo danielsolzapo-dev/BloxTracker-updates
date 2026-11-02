@@ -1,13 +1,13 @@
 {
   "ok": true,
-  "version": "3.11.0",
-  "sha256": "c95422f460cbf6404086d0c96e72774c6aa6911b4972e0a995a03a6d7d95e7eb",
-  "size": 197074,
+  "version": "3.12.0",
+  "sha256": "f362d816052ac9abe4e9b4f2a54dd0b5d2d5e3f59fe6d8ce4a52b9763fc02c3d",
+  "size": 209222,
   "package": "package.zip",
   "notes": [
-    "Cadastro: uma tentativa por clique na janela oficial, com dados de nascimento e termos confirmados pelo usu\u00e1rio.",
-    "CAPTCHA, recusa ou formul\u00e1rio desconhecido interrompem a automa\u00e7\u00e3o sem novas submiss\u00f5es; cadastro manual dispon\u00edvel.",
-    "Pastas: cofre local para credenciais criadas ou informadas manualmente, com senha oculta e revela\u00e7\u00e3o tempor\u00e1ria.",
-    "Credenciais protegidas pelo Windows, fora do estado do painel, sincroniza\u00e7\u00e3o LAN, ZIP e backups."
+    "Arquivos: navegue no PC local e nos agentes cadastrados, baixe e envie arquivos pela rede local.",
+    "Envio com limite de 25 MiB por arquivo, confer\u00eancia SHA-256 e sobrescrita apenas quando autorizada.",
+    "Atalho para enviar o pacote atual do tracker, sem as credenciais e configura\u00e7\u00f5es privadas.",
+    "Transfer\u00eancias n\u00e3o executam arquivos; pedidos e resultados aparecem na nova aba Arquivos."
   ]
 }
