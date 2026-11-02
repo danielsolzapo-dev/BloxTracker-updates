@@ -1,6 +1,18 @@
 # BloxTracker updates
 
-Versão atual: **3.9.0 — gerenciador de operação em lote**.
+Versão atual: **3.10.0 — parada de operação e reinício gradual**.
+
+## Novidades 3.10
+
+- **Parar operação** por seleção ou grupo: cancela esperas e pedidos ainda na fila do central, pausa reconexões e agendamentos e interrompe sequências. Instâncias continuam abertas por padrão; fechar jogos identificados é uma opção separada. Pedidos já entregues ao Windows podem terminar.
+- A pausa afeta só as contas escolhidas. Agendamentos compartilhados são separados para preservar as outras contas. **Retomar operação** libera novas ações e horários futuros; horários passados são marcados como perdidos. Esperas canceladas e reconexões não são retomadas automaticamente.
+- **Fila de início**: posição por PC, motivo atual e espera mínima estimada quando calculável. Carregamento e disponibilidade podem prolongar o tempo; não é um horário garantido.
+- **Reiniciar gradualmente** no grupo: fixa PID, criação e sessão, fecha uma instância, confirma a saída, espera os dados antigos expirarem e abre no destino salvo. Só avança quando o coletor volta com nova sessão e identidade correta.
+- A leitura do processo pelo agente pode chegar depois dos dados do coletor; a sequência aguarda essa confirmação. Mudança real de PID/sessão, falha ou ausência de confirmação interrompe para revisão. Fechamentos não são repetidos automaticamente.
+- O reinício pausa reconexões e horários do grupo. Ao concluir, novas ações ficam liberadas; retome os horários e reative reconexões separadamente. Etapas sem confirmação por mais de 5 minutos exigem revisão. Mantenha central/agentes/coletor ativos.
+
+Consulte GERENCIADOR.txt. Os testes usam processos e abertura simulados; a execução real destas novas ações ainda precisa de validação no Windows.
+
 
 ## Novidades 3.9
 

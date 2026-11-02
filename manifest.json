@@ -1,14 +1,14 @@
 {
   "ok": true,
-  "version": "3.9.0",
-  "sha256": "3ede529449396a8145f27add5d9382c6220606962b8c8b9ff4ec20b0fb4e2914",
-  "size": 181832,
+  "version": "3.10.0",
+  "sha256": "4df835d017ae658a61354b200125d11e91ce9a9a47edc5d8448c6a1fec39d3e5",
+  "size": 188307,
   "package": "package.zip",
   "notes": [
-    "Gerenciador: grupos, in\u00edcio em lote, fila por PC com intervalo, capacidade e prioridade.",
-    "Destinos salvos por conta, diagn\u00f3stico do PC e estados de sess\u00e3o sem expor credenciais.",
-    "Agendamentos pontuais de in\u00edcio e fechamento; central e agentes devem permanecer abertos.",
-    "Pausa de reconex\u00e3o por sele\u00e7\u00e3o, grupo ou PC; revis\u00e3o de pedidos incertos antes de novas aberturas.",
-    "Confirma\u00e7\u00e3o de entrada pela identidade retornada pelo coletor, mantendo PID e sess\u00e3o nas a\u00e7\u00f5es de fechamento."
+    "Parar opera\u00e7\u00e3o por sele\u00e7\u00e3o ou grupo: interrompe esperas, reconex\u00f5es, rein\u00edcios graduais e pausa os agendamentos das contas escolhidas.",
+    "Retomar libera novas a\u00e7\u00f5es e hor\u00e1rios futuros; n\u00e3o repete esperas canceladas nem reativa reconex\u00f5es automaticamente.",
+    "Fila com posi\u00e7\u00e3o por PC, motivo de espera e tempo m\u00ednimo estimado quando calcul\u00e1vel.",
+    "Rein\u00edcio gradual: fecha uma inst\u00e2ncia identificada, confirma o encerramento e aguarda a nova sess\u00e3o do coletor antes da pr\u00f3xima conta.",
+    "Rein\u00edcios graduais param para revis\u00e3o em caso de PID alterado, falha ou falta de confirma\u00e7\u00e3o; fechamento dos jogos ao parar \u00e9 opcional."
   ]
 }
