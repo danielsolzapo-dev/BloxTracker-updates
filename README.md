@@ -1,6 +1,18 @@
 # BloxTracker updates
 
-Versão atual: **3.15.0 — Studio e opção OLD**.
+Versão atual: **3.16.0 — telemetria de CPU**.
+
+## Novidades 3.16
+
+- CPU dos processos Roblox amostrada aproximadamente a cada 2 segundos em segundo plano, independente da frequência de consulta do navegador/coletor.
+- Normalização por tempo decorrido e processadores lógicos ativos, incluindo grupos de processadores do Windows. Intervalos longos, negativos e leituras sem base não viram zero.
+- Telemetria dos agentes no heartbeat a cada 3 segundos, restrita a conta/sessão/PID/criação correspondentes. A idade relativa evita diferenças de relógio entre os PCs. Não renova artificialmente a conexão do coletor.
+- Cartões mostram **CPU dos Roblox**, cobertura e idade da amostra. Processos duplicados não são somados duas vezes e cobertura incompleta deixa o total Aguardando.
+- O navegador conserva seu intervalo de atualização; a leitura pode chegar com atraso. É a soma dos Roblox monitorados, não o uso total do Windows nem uma promessa de coincidir com a métrica do Gerenciador de Tarefas.
+
+**Validação:** testes numéricos de cargas conhecidas, intervalos inválidos, agregação parcial/duplicada e heartbeat HTTP autenticado com relógio deslocado passaram; CPU/fechamento e atualização LAN também validados. Comparação com um Roblox real no Windows ainda precisa ser feita no PC de origem. Atualize central e agentes.
+
+
 
 ## Novidades 3.15
 

@@ -1,12 +1,12 @@
 {
   "ok": true,
-  "version": "3.15.0",
-  "sha256": "acf8d8f95e314991ec60b778ae3e7665d8da8c1ffe539b486044fd9dec62eb3c",
-  "size": 219779,
+  "version": "3.16.0",
+  "sha256": "6ce98a3fb07c4bac54cfcc3e69104e26202bf5698d11cb609459c1362df2ae22",
+  "size": 221036,
   "package": "package.zip",
   "notes": [
-    "Novo visual Studio: central compacta com cores s\u00f3brias, contas em destaque e detalhes na lateral.",
-    "Busca, filtro por PC e atalhos de conex\u00e3o em uma barra; filtros avan\u00e7ados recolh\u00edveis.",
-    "Op\u00e7\u00e3o OLD retorna ao visual usado antes da reformula\u00e7\u00e3o; os demais temas continuam dispon\u00edveis."
+    "CPU: amostragem independente a cada 2 segundos, com intervalo e cobertura v\u00e1lidos.",
+    "Agentes enviam leituras pelo heartbeat a cada 3 segundos, com normaliza\u00e7\u00e3o da idade da amostra.",
+    "Cart\u00f5es identificam CPU dos Roblox e mostram idade/cobertura da leitura, sem somar processos ausentes como zero."
   ]
 }
