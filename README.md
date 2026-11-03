@@ -1,6 +1,19 @@
 # BloxTracker updates
 
-Versão atual: **3.14.0 — proporção personalizada da janela**.
+Versão atual: **3.15.0 — Studio e opção OLD**.
+
+## Novidades 3.15
+
+- **Studio**, uma identidade visual própria: cinza escuro, azul discreto, navegação por operação/sistema e maior densidade de informação.
+- Busca e filtro por PC em uma barra, atalhos Todas/Online/Sem sinal e filtros avançados recolhíveis. Os mesmos controles e valores são preservados ao trocar o visual.
+- Indicadores compactos e resumo dos computadores com menos espaço ocupado.
+- Detalhes da conta em painel lateral no Studio, mantendo a lista visível ao fundo. Todas as abas e funções anteriores permanecem.
+- **Aparência → OLD** retorna ao tema ativo antes desta reformulação. Os seis temas anteriores continuam disponíveis, além de Studio e OLD.
+- Studio aparece na primeira abertura após a atualização; a escolha posterior fica salva por navegador. Não altera contas, metas, processos ou configuração LAN.
+
+**Validação:** painel, filtros rápidos, troca Studio/OLD e detalhes laterais conferidos no navegador com dados de demonstração. Pacote e atualização autenticada central/agente passaram.
+
+
 
 ## Novidades 3.14
 
