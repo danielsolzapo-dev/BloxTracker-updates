@@ -1,13 +1,13 @@
 {
   "ok": true,
-  "version": "3.12.0",
-  "sha256": "f362d816052ac9abe4e9b4f2a54dd0b5d2d5e3f59fe6d8ce4a52b9763fc02c3d",
-  "size": 209222,
+  "version": "3.13.0",
+  "sha256": "9bafedcf79efa7563c976a112cabf1bc4478715a5c51a43fedd3185ca9f56610",
+  "size": 211337,
   "package": "package.zip",
   "notes": [
-    "Arquivos: navegue no PC local e nos agentes cadastrados, baixe e envie arquivos pela rede local.",
-    "Envio com limite de 25 MiB por arquivo, confer\u00eancia SHA-256 e sobrescrita apenas quando autorizada.",
-    "Atalho para enviar o pacote atual do tracker, sem as credenciais e configura\u00e7\u00f5es privadas.",
-    "Transfer\u00eancias n\u00e3o executam arquivos; pedidos e resultados aparecem na nova aba Arquivos."
+    "Arquivos: envio em lote de at\u00e9 20 arquivos e sele\u00e7\u00e3o por arrastar e soltar.",
+    "Favoritos de pastas por PC salvos neste navegador; busca nos itens da p\u00e1gina carregada.",
+    "C\u00f3pia entre PCs intermediada pelo central, sem baixar o arquivo pelo navegador.",
+    "Tamanho e estado por pedido; percentual no envio navegador-central e confirma\u00e7\u00e3o separada no destino."
   ]
 }

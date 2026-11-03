@@ -1,6 +1,19 @@
 # BloxTracker updates
 
-Versão atual: **3.12.0 — arquivos entre computadores**.
+Versão atual: **3.13.0 — lotes, favoritos e cópia entre PCs**.
+
+## Novidades 3.13
+
+- **Envio em lote**: selecione ou arraste até 20 arquivos; cada arquivo mantém seu pedido separado. Limite de 25 MiB por arquivo. Erro na solicitação interrompe o restante do lote, sem repetir pedidos aceitos.
+- **Favoritos de pastas por PC**, até 30 por computador, salvos no navegador atual.
+- **Busca por nome** nos itens da página carregada (até 200), sem busca recursiva.
+- **Copiar entre PCs**: prepare o arquivo na origem, escolha o PC/unidade/pasta de destino e confirme a cópia. O central intermedia e verifica SHA-256; o navegador não precisa baixar o arquivo.
+- Progresso percentual no envio navegador-central; tamanho, etapas e confirmação de gravação separados por pedido. O trecho central-agente mostra estado, sem percentual de rede.
+- Sobrescrita continua desligada por padrão. Limites, cache, isolamento por agente e proteção das credenciais do tracker permanecem.
+
+**Validação:** testes de integridade, cache adulterado recusado, cópia de agente para central, upload/download e atualização LAN passaram com serviços reais em Linux. Favoritos, busca e fluxo de cópia conferidos no navegador com dados de demonstração. Windows e seleção real de arquivos ainda precisam de validação nos seus PCs.
+
+
 
 ## Novidades 3.12
 
