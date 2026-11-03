@@ -1,13 +1,12 @@
 {
   "ok": true,
-  "version": "3.13.0",
-  "sha256": "9bafedcf79efa7563c976a112cabf1bc4478715a5c51a43fedd3185ca9f56610",
-  "size": 211337,
+  "version": "3.14.0",
+  "sha256": "223faf2679d04fe5e9d85a99c5897f8b9d29a414650f2c55b8321d58365679d2",
+  "size": 215009,
   "package": "package.zip",
   "notes": [
-    "Arquivos: envio em lote de at\u00e9 20 arquivos e sele\u00e7\u00e3o por arrastar e soltar.",
-    "Favoritos de pastas por PC salvos neste navegador; busca nos itens da p\u00e1gina carregada.",
-    "C\u00f3pia entre PCs intermediada pelo central, sem baixar o arquivo pelo navegador.",
-    "Tamanho e estado por pedido; percentual no envio navegador-central e confirma\u00e7\u00e3o separada no destino."
+    "Janela do Roblox: largura e altura personalizadas da \u00e1rea do jogo, por conta.",
+    "Aplicar e manter tamanho no PID vinculado; desativar ajuste preserva o tamanho atual.",
+    "Controle tamb\u00e9m nos agentes, com verifica\u00e7\u00e3o de PID, cria\u00e7\u00e3o e sess\u00e3o."
   ]
 }

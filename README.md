@@ -1,6 +1,18 @@
 # BloxTracker updates
 
-Versão atual: **3.13.0 — lotes, favoritos e cópia entre PCs**.
+Versão atual: **3.14.0 — proporção personalizada da janela**.
+
+## Novidades 3.14
+
+- **Ver conta → Recursos → Proporção e tamanho da janela**: informe largura e altura da área interna do jogo em pixels (ex.: 800×600, 960×540 ou 600×600).
+- **Aplicar e manter tamanho** confere o tamanho a cada 2 segundos no PID/sessão atuais. **Desativar ajuste** preserva o tamanho atual e libera o redimensionamento.
+- Controle por conta, local ou agente atualizado. Pinagem de PID, criação e sessão; comando expirável e confirmação no PC de origem. Mudança de PID exige nova aplicação.
+- A manutenção preserva janelas minimizadas; o clique explícito pode restaurar a janela. Não altera resolução do monitor, FOV nem escala de renderização. Requer Roblox em modo janela; Windows/Roblox podem impor tamanho mínimo.
+- API de janela assíncrona, identificação da janela pelo PID e confirmação limitada no tempo. Falhas interrompem a manutenção e aparecem no painel.
+
+**Validação:** tamanho de área interna com bordas, HWND correto, minimização e PID reutilizado testados com Win32 simulado. Comando HTTP/LAN, confirmação, rejeição de alvo antigo, CPU, fechamento e atualização dos agentes passaram. Formulário conferido no navegador. Redimensionamento real, DPI e limites do Roblox ainda precisam ser validados no Windows.
+
+
 
 ## Novidades 3.13
 
