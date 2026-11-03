@@ -1,12 +1,12 @@
 {
   "ok": true,
-  "version": "3.16.0",
-  "sha256": "6ce98a3fb07c4bac54cfcc3e69104e26202bf5698d11cb609459c1362df2ae22",
-  "size": 221036,
+  "version": "3.17.0",
+  "sha256": "d42cd89577871484766dfbc3d6200c1c265c229f532767ec74d3c1fa2c97a560",
+  "size": 221492,
   "package": "package.zip",
   "notes": [
-    "CPU: amostragem independente a cada 2 segundos, com intervalo e cobertura v\u00e1lidos.",
-    "Agentes enviam leituras pelo heartbeat a cada 3 segundos, com normaliza\u00e7\u00e3o da idade da amostra.",
-    "Cart\u00f5es identificam CPU dos Roblox e mostram idade/cobertura da leitura, sem somar processos ausentes como zero."
+    "Tabela de contas: frutas guardadas exibe apenas m\u00edticas e lend\u00e1rias.",
+    "Ver conta mant\u00e9m o invent\u00e1rio completo; totais, metas e filtros continuam considerando todas as frutas.",
+    "Raridade informada pelo coletor tem prioridade; nomes conhecidos s\u00e3o usados quando n\u00e3o h\u00e1 raridade."
   ]
 }

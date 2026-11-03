@@ -1,6 +1,18 @@
 # BloxTracker updates
 
-Versão atual: **3.16.0 — telemetria de CPU**.
+Versão atual: **3.17.0 — frutas em destaque na tabela**.
+
+## Novidades 3.17
+
+- **Frutas guardadas na tabela de contas:** mostra ícones apenas das lendárias e míticas.
+- **Ver conta → Inventário:** mantém todas as frutas, incluindo comuns, incomuns e raras.
+- Total de frutas guardadas, filtros, regras e metas continuam considerando o inventário completo.
+- Raridade enviada pelo coletor tem prioridade. Quando ausente, nomes conhecidos são usados; frutas não classificadas continuam no inventário completo.
+- O coletor também passa a encaminhar raridade textual disponível no catálogo de frutas. O filtro por nomes funciona com os dados já existentes.
+
+**Validação:** classificação de lendárias/míticas, exclusão de baixas/desconhecidas, prioridade de raridade explícita e sintaxe do painel passaram. Inventário detalhado e contagens globais não foram filtrados.
+
+
 
 ## Novidades 3.16
 
