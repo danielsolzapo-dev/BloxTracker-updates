@@ -1,12 +1,12 @@
 {
   "ok": true,
-  "version": "3.18.0",
-  "sha256": "5c952311906e80f8ae31f18b529fc8202cc10d0dd63c544038433303b2c75e3f",
-  "size": 347882,
+  "version": "3.18.1",
+  "sha256": "6d046a88cd5d126d48b645f79d57971397dae419c467a987a91110045f8488d6",
+  "size": 348389,
   "package": "package.zip",
   "notes": [
-    "Visual SK Rejoin em preto, branco e dourado; temas anteriores em Apar\u00eancia.",
-    "Compara\u00e7\u00e3o de 2 a 6 contas, resumo das metas e alertas agrupados por computador.",
-    "Perfis com tamanho de janela, RAM e CPU. Central dos PCs com mem\u00f3ria dispon\u00edvel e atualiza\u00e7\u00e3o individual dos agentes."
+    "Uma entrada por conta mesmo quando usada em PCs diferentes. O registro mais recente determina os dados e o computador exibido.",
+    "Identifica\u00e7\u00e3o pelo UserId do Roblox, com nick sem diferen\u00e7a de mai\u00fasculas como alternativa para dados antigos.",
+    "Painel, totais, pastas e alertas usam a mesma sele\u00e7\u00e3o. Comandos continuam presos ao PC e \u00e0 sess\u00e3o de origem."
   ]
 }

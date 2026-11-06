@@ -1,6 +1,17 @@
 # BloxTracker updates
 
-Versão atual **3.18.0 — identidade SK Rejoin e central dos computadores**.
+Versão atual **3.18.1 — uma entrada por conta entre computadores**.
+
+## 3.18.1
+
+Painel, totais, alertas e exportação das pastas exibem uma entrada por conta. O registro com o sinal mais recente define os dados e o PC apresentados. UserId é a identidade principal, com nick sem diferença de maiúsculas como alternativa para registros antigos. DisplayName não é usado para juntar contas.
+
+Os registros de origem permanecem no banco para preservar a separação das sessões e dos comandos. Metas, limites e vínculos de processo continuam associados à origem onde foram configurados. Excluir uma conta pelo painel considera todas as origens e exige remover os limites ativos antes.
+
+Testes passaram para mudança de PC nos dois sentidos, nick com maiúsculas, alteração de nick com mesmo UserId, DisplayNames iguais de contas diferentes, exportação e atualização LAN autenticada.
+
+## 3.18.0
+
 
 - Novo visual preto, branco e dourado, com a arte do SK Rejoin. Aparência permite trocar para OLD ou os temas anteriores.
 - Comparar selecionadas mostra de 2 a 6 contas lado a lado, com nível, saldos, mar, raça, frutas lendárias/míticas, estilos, acessórios e metas.
