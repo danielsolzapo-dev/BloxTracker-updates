@@ -1,6 +1,18 @@
 # BloxTracker updates
 
-Versão atual: **3.17.0 — frutas em destaque na tabela**.
+Versão atual **3.18.0 — identidade SK Rejoin e central dos computadores**.
+
+- Novo visual preto, branco e dourado, com a arte do SK Rejoin. Aparência permite trocar para OLD ou os temas anteriores.
+- Comparar selecionadas mostra de 2 a 6 contas lado a lado, com nível, saldos, mar, raça, frutas lendárias/míticas, estilos, acessórios e metas.
+- Resumo das metas mostra objetivos ativos, concluídos, próximos de concluir e que precisam de atenção.
+- Alertas no painel ficam agrupados por computador e mantêm os controles de abrir conta e dispensar.
+- Perfis de recursos incluem largura/altura da janela e usam os comandos existentes de RAM e CPU com confirmação individual.
+- Central dos PCs mostra vagas do gerenciador, RAM disponível do Windows, versão do tracker e botão para atualizar um agente específico.
+- Central de atualizações lista computador, versão instalada, versão de destino e mensagem de cada agente.
+
+Atualize o central e os agentes para receber a nova telemetria de memória. O pacote preserva os arquivos de configuração e dados locais pelo atualizador existente. Vagas consideram as instâncias acompanhadas pelo gerenciador.
+
+Validado com comparação e troca de temas no navegador, perfis e telemetria em testes, atualização LAN autenticada com download/instalação/reinício reais do tracker em Linux e processos simulados. Medição de RAM e abertura do Roblox ainda precisam de validação no Windows.
 
 ## Novidades 3.17
 

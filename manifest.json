@@ -1,12 +1,12 @@
 {
   "ok": true,
-  "version": "3.17.0",
-  "sha256": "d42cd89577871484766dfbc3d6200c1c265c229f532767ec74d3c1fa2c97a560",
-  "size": 221492,
+  "version": "3.18.0",
+  "sha256": "5c952311906e80f8ae31f18b529fc8202cc10d0dd63c544038433303b2c75e3f",
+  "size": 347882,
   "package": "package.zip",
   "notes": [
-    "Tabela de contas: frutas guardadas exibe apenas m\u00edticas e lend\u00e1rias.",
-    "Ver conta mant\u00e9m o invent\u00e1rio completo; totais, metas e filtros continuam considerando todas as frutas.",
-    "Raridade informada pelo coletor tem prioridade; nomes conhecidos s\u00e3o usados quando n\u00e3o h\u00e1 raridade."
+    "Visual SK Rejoin em preto, branco e dourado; temas anteriores em Apar\u00eancia.",
+    "Compara\u00e7\u00e3o de 2 a 6 contas, resumo das metas e alertas agrupados por computador.",
+    "Perfis com tamanho de janela, RAM e CPU. Central dos PCs com mem\u00f3ria dispon\u00edvel e atualiza\u00e7\u00e3o individual dos agentes."
   ]
 }
