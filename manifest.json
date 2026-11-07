@@ -1,12 +1,13 @@
 {
   "ok": true,
-  "version": "3.19.0",
-  "sha256": "dee8dbc76687b6b5ed47e6b57faca51f39891a1d71fffcbb4803ddba2513c051",
-  "size": 352619,
+  "version": "3.20.0",
+  "sha256": "cfc813a25e9f62680b1481e1c296ed4b252e8616fd4424d2797304113c1e78b3",
+  "size": 356880,
   "package": "package.zip",
   "notes": [
-    "Gerenciador mostra os estados de conex\u00e3o do SK Rejoin no PC local e nos agentes.",
-    "Rejoin pelo painel central, limitado \u00e0 conta e ao PC escolhidos, com pedidos que expiram e prote\u00e7\u00e3o contra repeti\u00e7\u00e3o.",
-    "Requer SK Rejoin 0.8.0 aberto no mesmo usu\u00e1rio Windows e Place ID salvo no perfil. Atualize tamb\u00e9m os agentes."
+    "SK Control no Gerenciador: painel por PC com programas, contas e comandos do SK Rejoin.",
+    "Abrir, reconectar, fechar, aplicar perfis, preparar PC, diagnosticar e atualizar o APP pelo painel central.",
+    "Confirma\u00e7\u00f5es separadas de recebido, execu\u00e7\u00e3o, conclus\u00e3o e falha, com prote\u00e7\u00e3o contra repeti\u00e7\u00e3o.",
+    "Requer SK Rejoin 0.10.0 no mesmo usu\u00e1rio Windows em cada PC. Atualize tamb\u00e9m os agentes."
   ]
 }
