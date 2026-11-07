@@ -1,13 +1,13 @@
 {
   "ok": true,
-  "version": "3.20.0",
-  "sha256": "cfc813a25e9f62680b1481e1c296ed4b252e8616fd4424d2797304113c1e78b3",
-  "size": 356880,
+  "version": "3.21.0",
+  "sha256": "159277912d65e347e3e61054cd3d40a784d7239a627043ec334ddebe0ead9fbc",
+  "size": 361329,
   "package": "package.zip",
   "notes": [
-    "SK Control no Gerenciador: painel por PC com programas, contas e comandos do SK Rejoin.",
-    "Abrir, reconectar, fechar, aplicar perfis, preparar PC, diagnosticar e atualizar o APP pelo painel central.",
-    "Confirma\u00e7\u00f5es separadas de recebido, execu\u00e7\u00e3o, conclus\u00e3o e falha, com prote\u00e7\u00e3o contra repeti\u00e7\u00e3o.",
-    "Requer SK Rejoin 0.10.0 no mesmo usu\u00e1rio Windows em cada PC. Atualize tamb\u00e9m os agentes."
+    "Arquivos: descoberta de pastas do executor configurado no SK Rejoin, programas conhecidos em execu\u00e7\u00e3o e pastas comuns.",
+    "Escolha persistente por PC quando h\u00e1 mais de um candidato e sele\u00e7\u00e3o manual da pasta.",
+    "Atalhos para a raiz e pastas Auto Execute detectadas, com os mesmos uploads e downloads locais ou pela rede.",
+    "Arquivos e pastas tamb\u00e9m podem ser renomeados; arquivos e pastas vazias podem ser exclu\u00eddos."
   ]
 }
